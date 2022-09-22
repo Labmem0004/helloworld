@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
@@ -45,6 +46,10 @@ int main() {
         cout << '\n';
     }
     cout << endl;
+
+    cout << "试试直接输出整个数组" << '\n' << ia << endl;
+    cout << "直接输出vector会报错" << endl;
+
 
     return 0;
 }
